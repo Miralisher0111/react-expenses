@@ -20,18 +20,22 @@ date:new Date(2022,11,31)},
 {id:4,
   title:'black-bear', 
   amount:2.87,
-date:new Date(2022,11,31)},
+date:new Date(2022,9,31)},
 {id:5,
   title:'dith-wish', 
   amount:3.01,
-date:new Date(2022,11,31)}
+date:new Date(2022,10,31)},
+{id:6,
+  title:'americano', 
+  amount:3.01,
+date:new Date(2022,10,31)}
 ];
 
 
 function App() {
 
 const AddExpenseHandler=(expense)=>{
-console.log(expences);
+console.log(expense);
 }
 
   return (
